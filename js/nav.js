@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <!-- /Home -->
                                             <!-- Pages -->
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="#">Pages</a>
+                                                <a href="#">OTHERS</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
                                                         <a href="about-us.html">About Us</a>
@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <a href="#">Gallery</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
-                                                        <a href="gallery-grid.html">Grid Gallery</a>
+                                                        <a href="gallery-grid.html">Our Music</a>
                                                     </li>
                                                    
                                                     <li class="menu-item">
-                                                        <a href="gallery-masonry.html">Masonry Gallery</a>
+                                                        <a href="gallery-masonry.html">Photo Gallery</a>
                                                     </li>
                                                 </ul>
                                             </li>
