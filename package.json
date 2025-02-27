@@ -1,0 +1,23 @@
+{
+  "name": "newlife-church",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "module": "esnext",
+  "scripts": {
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview",
+    "dev": "vite"
+  },
+  "author": "sone",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "vite-plugin-static-copy": "^2.2.0"
+  },
+  "dependencies": {
+    "graphql-request": "^7.1.2",
+    "he": "^1.2.0"
+  }
+}
