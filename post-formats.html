@@ -29,6 +29,20 @@
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="icon" href="http://placehold.it/32x32" />
         <link rel="apple-touch-icon-precomposed" href="http://placehold.it/32x32" />
+
+        <style>
+           
+
+            article.post_item img {
+                display: block;
+                width: 100%;
+                height: 500px;
+            }
+
+            .post_item_excerpt:not([class*=column])+.post_item_excerpt:not([class*=column]) { 
+                padding-top: 0px;
+            }
+        </style>
     </head>
 
     <body class="archive category body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_show sidebar_right">
@@ -61,36 +75,7 @@
                         <!-- Content -->
                         <div class="content blog-data-formats">
  
-                            <!-- Image Post -->
-                            <article class="post_item post_item_excerpt post_format_image odd post">
-                                <div class="post_featured">
-                                    <div class="post_thumb" data-title="Image Post">
-                                        <a class="hover_icon hover_icon_link" href="#">
-                                            <img alt="Image Post" className="post-thubs" src="images/bgs/bgdrop.jpg"></a>
-                                    </div>
-                                </div>
-                                <div class="post_content clearfix">
-                                    <h3 class="post_title">
-                                        <a href="#">The power of a scripture</a>
-                                    </h3>
-                                    <div class="post_info">
-                                        <span class="post_info_item post_info_posted_by">Posted by Jane Doe</span>
-                                        <span class="post_info_item post_info_tags">in
-                                            <a class="category_link" href="">Post formats</a>
-                                        </span>
-                                        <span class="post_info_item post_info_counters">Views
-                                            <a class="post_counters_item post_counters_views" title="Views - 41" href="#">
-                                                <span class="post_counters_number">41</span>
-                                            </a>
-                                        </span>
-                                    </div>
-                                    <div class="post_descr">
-                                        <p>The Word of God is living and active, shaping hearts and transforming lives at New Life Church (Hebrews 4:12). Scripture is a lamp to our feet and a light to our path, guiding us in truth and righteousness (Psalm 119:105). Faith comes by hearing the Word, strengthening our walk with God and deepening our trust in Him (Romans 10:17). Every promise in Scripture is God-breathed, equipping us for every good work and preparing us for His purpose (2 Timothy 3:16-17). When we stand on God's Word, we build our lives on an unshakable foundation that cannot be moved (Matthew 7:24-25).</p>
-                                        
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- /Image Post -->
+                          
 
                             <!-- Pagination -->
                             <nav id="pagination" class="pagination_wrap pagination_pages">
