@@ -214,6 +214,11 @@ img {
 	height: auto;
 	vertical-align:top;
 }
+.post-thubs{
+	width:10px;
+	height:1px;
+}
+
 
 figure {
 	border: 0;
@@ -242,6 +247,10 @@ figure figcaption {
 }
 figure:hover figcaption {
 	margin-bottom: -5em !important;
+}
+
+.post_thumb{
+     
 }
 
 svg:not(:root) { overflow: hidden; }

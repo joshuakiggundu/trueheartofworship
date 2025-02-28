@@ -57,7 +57,7 @@ class BlogDataFetchManager {
                     </div>
                     <div class="post_descr">
                         <p>${description}</p>
-                        <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_color_style_2 sc_button_size_large">Read more</a>
+                        
                     </div>
                 </div>
             </article>
