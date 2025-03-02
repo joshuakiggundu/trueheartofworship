@@ -1,161 +1,232 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="format-detection" content="telephone=no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
 
-        <title>Grid Gallery &#8211; New Life Church</title>
+    <title>Grid Gallery &#8211; New Life Church</title>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat:400,700|Lato:300,300i,400,400i,700,700i|Raleway:300,300i,400,400i,700,700i&amp;subset=latin-ext">
-        <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Caveat:400,700|Lato:300,300i,400,400i,700,700i|Raleway:300,300i,400,400i,700,700i&amp;subset=latin-ext">
+    <link rel="stylesheet" href="css/fontello/css/fontello.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="js/vendor/essential-grid/css/lightbox.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/tpl-essential-grids.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/vendor/essential-grid/css/lightbox.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/tpl-essential-grids.min.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/core.animation.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/core.animation.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/shortcodes.min.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="css/plugin.instagram-widget.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/plugin.instagram-widget.min.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/responsive.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/skin.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/responsive.min.css" type="text/css" media="all" />
 
-        <link rel="stylesheet" href="css/core.messages.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="js/vendor/magnific/magnific-popup.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/core.messages.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="js/vendor/magnific/magnific-popup.min.css" type="text/css" media="all" />
 
-        <link rel="icon" href="http://placehold.it/32x32" />
-        <link rel="icon" href="http://placehold.it/32x32" />
-        <link rel="apple-touch-icon-precomposed" href="http://placehold.it/32x32" />
+    <link rel="icon" href="http://placehold.it/32x32" />
+    <link rel="icon" href="http://placehold.it/32x32" />
+    <link rel="apple-touch-icon-precomposed" href="http://placehold.it/32x32" />
 
-        <style>
-            .hero-section {
-                background-size: cover;
-                background-position: center;
-                height: 350px;
-                width: 350px;
-                display: flex;
-                margin: auto;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                text-align: center;
-                position: relative;
-            }
+    <style>
+        .hero-section-container {
+            margin-top: 70px;
+        }
+        .hero-section {
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
 
-            .hero-controls {
-                position: absolute;
-                bottom: 20px;
-                left: 50%;
-                transform: translateX(-50%);
-                display: flex;
-                align-items: center;
-            }
+        .hero-controls {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
 
-            .hero-controls  {
-                background: rgba(255, 255, 255, 0.3);
-                border: none;
-                color: white;
-                font-size: 24px;
-                margin: 0 10px;
-                cursor: pointer;
-                border-radius: 50%;
-                width: 40px;
-                height: 40px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                transition: background 0.3s ease;
-            }
+        .hero-controls {
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+        }
 
-            .hero-controls button:hover {
-                background: rgba(255, 255, 255, 0.5);
-            }
-            .hero-controls button {
-                background: rgba(255, 255, 255, 0.5);
-                border: none;
-            }
-            
-            .progress-bar {
-                width: 100%;
-                height: 5px;
-                background: rgba(255, 255, 255, 0.3);
-                position: absolute;
-                bottom: 0;
-                left: 0;
-            }
+        .hero-controls button:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
 
-            .progress-bar .progress {
-                height: 100%;
-                background: white;
-                width: 0;
-            }
+        .hero-controls button {
+            background: rgba(255, 255, 255, 0.5);
+            border: none;
+        }
 
-            .music-card {
-                position: relative;
-                overflow: hidden;
-                cursor: pointer;
-                transition: all 0.3s ease;
-            }
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.3);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
 
-            .music-card img {
-                margin-top:3660px;
-                width: 100%;
-                height: auto;
-            }
+        .progress-bar .progress {
+            height: 100%;
+            background: white;
+            width: 0;
+        }
 
-            .music-card .play-icon {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 48px;
-                color: white;
-                opacity: 0;
-                transition: all 0.3s ease;
-            }
+        .music-card {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
 
-            .music-card:hover {
-                background: blue;
-            }
+        .music-card img {
+            width: 100%;
+            height: auto;
+        }
 
-            .music-card:hover .play-icon {
-                opacity: 1;
-            }
+        .music-card .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: white;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
 
-            .music-card.playing {
-                border: 2px solid blue;
-            }
-        </style>
-    </head>
+        .music-card:hover {
+            background: blue;
+        }
 
-    <body class="page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide">
-        <a id="toc_home" class="sc_anchor" title="Home" data-description="<i>Return to Home</i> - <br>navigate to home page of the site" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
-        <a id="toc_top" class="sc_anchor" title="To Top" data-description="<i>Back to top</i> - <br>scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
-        <!-- Body wrap -->
-        <div class="body_wrap">
-            <!-- Page wrap -->
-            <div class="page_wrap">
-                <div class="top_panel_fixed_wrap"></div>
-                <!-- Header -->
-                <div id="nav"></div>
-                <!-- /Header -->
-                <!-- Header Mobile -->
-                
-                <!-- /Header Mobile -->
-                <!-- Breadcrumbs -->
-                <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
-                    <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
-                        <div class="content_wrap">
-                            <h1 class="page_title">Our music</h1>
-                            
+        .music-card:hover .play-icon {
+            opacity: 1;
+        }
+
+        .music-card.playing {
+            border: 2px solid blue;
+        }
+
+
+
+        /*
+                Music-card-items
+            */
+
+        .new-life-music-cards {
+            margin: 30px 60px 30px 60px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .music-card-item {
+            cursor: pointer;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.7);
+            background-blend-mode: overlay;
+
+
+        }
+
+        .icon-reach {
+            bottom: 10px;
+            right: 20px;
+            position: absolute;
+
+        }
+
+        .icon-reach>div>svg {
+            height: 50px;
+            width: 50px;
+            color: #1d89b5;
+        }
+
+        .icon-reach .playing {
+            font-size: 300px;
+            display: none;
+        }
+
+        .music-card-item h2 {
+            color: white;
+            position: absolute;
+            left: 0px;
+            bottom: 10px;
+            word-wrap: break-word;
+            text-align: center;
+            font-weight: bold;
+            width: 250px;
+            margin-bottom: 10px;
+            font-size: 21px;
+        }
+    </style>
+</head>
+
+<body
+    class="page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide">
+    <a id="toc_home" class="sc_anchor" title="Home"
+        data-description="<i>Return to Home</i> - <br>navigate to home page of the site" data-icon="icon-home"
+        data-url="index.html" data-separator="yes"></a>
+    <a id="toc_top" class="sc_anchor" title="To Top"
+        data-description="<i>Back to top</i> - <br>scroll to top of the page" data-icon="icon-double-up" data-url=""
+        data-separator="yes"></a>
+    <!-- Body wrap -->
+    <div class="body_wrap">
+        <!-- Page wrap -->
+        <div class="page_wrap">
+            <div class="top_panel_fixed_wrap"></div>
+            <!-- Header -->
+            <div id="nav"></div>
+            <!-- /Header -->
+            <!-- Header Mobile -->
+
+            <!-- /Header Mobile -->
+            <!-- Breadcrumbs -->
+            <div class="top_panel_title top_panel_style_3 title_present breadcrumbs_present scheme_original">
+                <div class="top_panel_title_inner top_panel_inner_style_3 breadcrumbs_block_bg3">
+                    <div class="content_wrap">
+                        <h1 class="page_title" id="songTittle"></h1>
+                        <div class="breadcrumbs">
+                            <span class="breadcrumbs_item current" id="songArtist"></span>
                         </div>
                     </div>
                 </div>
-                <!-- /Breadcrumbs -->
+            </div>
+            <!-- /Breadcrumbs -->
+             <div class="hero-section-container">
                 <div class="hero-section" id="heroSection">
                     <h1 class="page_title" id="songTitle"></h1>
                     <div class="hero-controls" style="gap: 4px;">
@@ -167,65 +238,33 @@
                         <div class="progress" id="progressBar"></div>
                     </div>
                 </div>
-                <!-- Page Content Wrap -->
-                <div class="page_content_wrap page_paddings_no">
-                    <div class="content_wrap">
-                        <div class="content">
-                            <article class="post_item post_item_single page">
-                                <section class="post_content tpl_gallery_section">
-                                    <!-- THE ESSENTIAL GRID -->
-                                    <!-- GRID WRAPPER FOR CONTAINER SIZING - HERE YOU CAN SET THE CONTAINER SIZE AND CONTAINER SKIN -->
-                                    <article class="myportfolio-container gallery" id="esg-grid-2-1-wrap">
-                                        <!-- THE GRID ITSELF WITH FILTERS, PAGINATION, SORTING ETC... -->
-                                        <div id="esg-grid-2-1" class="esg-grid">
-                                           
-                                            <div class="esg-clear-no-height"></div>
-                                            <!-- ############################ -->
-                                            <!-- THE GRID ITSELF WITH ENTRIES -->
-                                            <!-- ############################ -->
-                                            <ul id="musicCards">
-                                                <!-- Music cards will be dynamically generated here -->
-                                            </ul>
-                                            <!-- ############################ -->
-                                            <!--      END OF THE GRID         -->
-                                            <!-- ############################ -->
-                                            <article class="esg-filters esg-singlefilters margin_top_50 text_align_center">
-                                                <!-- THE PAGINATION CONTAINER. PAGE BUTTONS WILL BE ADDED ON DEMAND AUTOMATICALLY !! -->
-                                                <div class="esg-pagination esg-fgc-2 margin_left_3 margin_right_3"></div>
-                                                <!-- END OF THE PAGINATION -->
-                                            </article>
-                                            <div class="esg-clear-no-height"></div>
-                                        </div>
-                                        <!-- END OF THE GRID -->
-                                    </article>
-                                    <!-- END OF THE GRID WRAPPER -->
-                                    <div class="clear"></div>
-                                </section>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <!-- / Page Content Wrap -->
-                <!-- Footer -->
-               <div id="footer"></div>
-                <!-- /Footer -->
-                <!-- Copyright -->
-                <div class="copyright_wrap copyright_style_text scheme_original">
-                    <div class="copyright_wrap_inner">
-                        <div class="content_wrap">
-                            <div class="copyright_text">ThemeREX © 2017 All Rights Reserved <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Copyright -->
-                <audio id="audioPlayer" controls style="display:none;"></audio>
-                <!-- /Body wrap -->
+             </div>
+            
 
-                <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
-                <script src="/js/nav.js"></script>
-                <script src="/js/footer.js"></script>
-                <!-- <script>
+            <div class="new-life-music-cards">
+            </div>
+
+            <!-- Footer -->
+            <div id="footer"></div>
+            <!-- /Footer -->
+            <!-- Copyright -->
+            <div class="copyright_wrap copyright_style_text scheme_original">
+                <div class="copyright_wrap_inner">
+                    <div class="content_wrap">
+                        <div class="copyright_text">ThemeREX © 2017 All Rights Reserved <a href="#">Terms of Use</a> and
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Copyright -->
+            <audio id="audioPlayer" controls style="display:none;"></audio>
+            <!-- /Body wrap -->
+
+            <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+            <script src="/js/nav.js"></script>
+            <script src="/js/footer.js"></script>
+            <!-- <script>
 
 
                     
@@ -423,28 +462,29 @@
                         displaySong(songs[0]);
                     });
                 </script> -->
-                <script type="text/javascript" src="js/jquery/jquery.js"></script>
-                <script type="text/javascript" src="js/jquery/jquery-migrate.min.js"></script>
+            <script type="text/javascript" src="js/jquery/jquery.js"></script>
+            <script type="text/javascript" src="js/jquery/jquery-migrate.min.js"></script>
 
-                <script type="text/javascript" src="js/vendor/photostack/modernizr.min.js"></script>
-                <script type="text/javascript" src="js/_main.min.js"></script>
-                <script type="text/javascript" src="js/_packed.js"></script>
+            <script type="text/javascript" src="js/vendor/photostack/modernizr.min.js"></script>
+            <script type="text/javascript" src="js/_main.min.js"></script>
+            <script type="text/javascript" src="js/_packed.js"></script>
 
-                <script type="text/javascript" src="js/vendor/essential-grid/js/lightbox.js"></script>
-                <script type="text/javascript" src="js/vendor/essential-grid/js/jquery.themepunch.tools.min.js"></script>
-                <script type="text/javascript" src="js/vendor/essential-grid/js/jquery.themepunch.essential.min.js"></script>
-                <script type="text/javascript" src="js/gallery-grid.min.js"></script>
+            <script type="text/javascript" src="js/vendor/essential-grid/js/lightbox.js"></script>
+            <script type="text/javascript" src="js/vendor/essential-grid/js/jquery.themepunch.tools.min.js"></script>
+            <script type="text/javascript"
+                src="js/vendor/essential-grid/js/jquery.themepunch.essential.min.js"></script>
+            <script type="text/javascript" src="js/gallery-grid.min.js"></script>
 
-                <script type="text/javascript" src="js/superfish.min.js"></script>
-                <script type="text/javascript" src="js/core.utils.min.js"></script>
-                <script type="text/javascript" src="js/core.init.min.js"></script>
-                <script type="text/javascript" src="js/template.init.min.js"></script>
+            <script type="text/javascript" src="js/superfish.min.js"></script>
+            <script type="text/javascript" src="js/core.utils.min.js"></script>
+            <script type="text/javascript" src="js/core.init.min.js"></script>
+            <script type="text/javascript" src="js/template.init.min.js"></script>
 
-                <script type="text/javascript" src="js/shortcodes.min.js"></script>
-                <script type="text/javascript" src="js/core.messages.min.js"></script>
-                <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.min.js"></script>
+            <script type="text/javascript" src="js/shortcodes.min.js"></script>
+            <script type="text/javascript" src="js/core.messages.min.js"></script>
+            <script type="text/javascript" src="js/vendor/magnific/jquery.magnific-popup.min.js"></script>
 
-              <script type="module" src="./api/Fetch/musicDataFetch.js"></script>
-    </body>
+            <script type="module" src="./api/Fetch/musicDataFetch.js"></script>
+</body>
 
 </html>
