@@ -209,11 +209,11 @@ hr {
 }
 
 /* Images */
-img {
+/**img {
 	max-width: 100%;
 	height: auto;
 	vertical-align:top;
-}
+}**/
 .post-thubs{
 	width:10px;
 	height:1px;

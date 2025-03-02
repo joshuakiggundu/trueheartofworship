@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h5 class="widget_title">Latest Sermons</h5>
                                 <article class="post_item with_thumb first">
                                     <div class="post_thumb">
-                                        <img alt="" src="http://placehold.it/75x75">
+                                        <img src="images/bgs/bgdrop.jpg" alt="">
                                     </div>
                                     <div class="post_content">
                                         <h6 class="post_title">
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </article>
                                 <article class="post_item with_thumb">
                                     <div class="post_thumb">
-                                        <img alt="" src="http://placehold.it/75x75">
+                                        <img src="images/bgs/bgdrop.jpg" alt="">
                                     </div>
                                     <div class="post_content">
                                         <h6 class="post_title">

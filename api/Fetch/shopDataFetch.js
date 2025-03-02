@@ -48,7 +48,7 @@ class ShopDataFetchManager {
                 </h3>
                 <span class="price">
                     <span class="woocommerce-Price-amount amount">
-                        <span class="woocommerce-Price-currencySymbol">&pound;</span>${price}
+                        <span class="woocommerce-Price-currencySymbol"></span>${price}
                     </span>
                 </span>
             </div>
