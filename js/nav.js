@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <!-- /Blog -->
                                             <!-- Donate -->
                                             <li class="donate-btn menu-item">
-                                                <a href="donate-now.html">Give</a>
+                                                <a href="donation-single.html">Give</a>
                                             </li>
                                             <!-- /Donate -->
                                         </ul>
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <!-- /Blog -->
                                     <!-- Donate -->
                                     <li class="donate-btn menu-item">
-                                        <a href="donate-now.html">Give</a>
+                                        <a href="donation-single.html">Give</a>
                                     </li>
                                     <!-- /Donate -->
                                 </ul>
