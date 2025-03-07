@@ -62,6 +62,10 @@ export default defineConfig({
           src: "css/*",
           dest: "css",
         },
+        {
+          src : "fontello/css/font/*",
+          dest : "assets/font"
+        }
       ],
     }),
   ],
