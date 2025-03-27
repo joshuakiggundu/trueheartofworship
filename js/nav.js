@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <!-- /Events -->
                                             <!-- Sermons -->
                                             <li class="menu-item">
-                                                <a href="sermons.html"">Sermons</a>
+                                                <a href="sermons.html"">Worship-Diaries</a>
                                                 
                                             </li>
                                             <!-- /Sermons -->
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <!-- /Events -->
                                     <!-- Sermons -->
                                     <li class="menu-item">
-                                        <a href="sermons.html">Sermons</a>
+                                        <a href="sermons.html">Worship-Diaries</a>
                                         
                                     </li>
                                     <!-- /Sermons -->

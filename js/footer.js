@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <aside class="column-1_4 widget widget_text">
                                     <h5 class="widget_title">About Our Church</h5>
                                     <div class="textwidget">
-                                        <p>We welcome visitors at NewLife Church and would love to have you join us in church this weekend.</p>
+                                        <p>We welcome visitors at True heart of worship and would love to have you join us in church this weekend.</p>
                                         <p class="textwidget_info">
                                             <strong>E: <a href="mailto:info@yoursite.com">info@yoursite.com</a></strong>
                                         </p>
                                         
                                     </div>
                                 </aside><!-- /Widget: Text --><!-- Widget: Recent Posts --><aside class="column-1_4 widget widget_recent_posts">
-                                <h5 class="widget_title">Latest Sermons</h5>
+                                <h5 class="widget_title">Worship-Diaries</h5>
                                 <article class="post_item with_thumb first">
                                     <div class="post_thumb">
                                         <img src="images/bgs/bgdrop.jpg" alt="">

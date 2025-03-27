@@ -36,13 +36,13 @@ class BlogDataFetchManager {
              <article class="post_item post_item_excerpt post_format_image odd post">
                 <div class="post_featured">
                     <div class="post_thumb" data-title="Image Post">
-                        <a class="hover_icon hover_icon_link" href="#">
+                        <a class="hover_icon hover_icon_link" href="post-single.html?id=${postTitle}">
                             <img alt="Image Post" src="${imageLink}"></a>
                     </div>
                 </div>
                 <div class="post_content clearfix">
                     <h3 class="post_title">
-                        <a href="#">${postTitle}</a>
+                        <a href="post-single.html?id=${postTitle}">${postTitle}</a>
                     </h3>
                     <div class="post_info">
                         <span class="post_info_item post_info_posted_by">Posted by ${author}</span>
