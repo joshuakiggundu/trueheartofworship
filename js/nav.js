@@ -27,36 +27,16 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 
                                             </li>
                                             <!-- /Home -->
-                                            <!-- Pages -->
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">OTHERS</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item">
-                                                        <a href="about-us.html">About Us</a>
-                                                    </li>
-                                                   
-                                            
-                                                    
-                                                    <li class="menu-item">
-                                                        <a href="shop.html">Shop</a>
-                                                    </li>
-                                                    <li class="menu-item">
-                                                        <a href="contacts.html">Contact Us</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <!-- /Pages -->
                                             <!-- Events -->
                                             <li class="menu-item">
                                                 <a href="events.html">Events</a>
                                             </li>
                                             <!-- /Events -->
-                                            <!-- Sermons -->
+                                            <!-- About us -->
                                             <li class="menu-item">
-                                                <a href="sermons.html"">Worship-Diaries</a>
-                                                
+                                                <a href="about-us.html"">About us</a>  
                                             </li>
-                                            <!-- /Sermons -->
+                                            <!-- /About us -->
                                             <!-- Gallery -->
                                             <li class="menu-item menu-item-has-children">
                                                 <a href="#">Gallery</a>
@@ -71,16 +51,23 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 </ul>
                                             </li>
                                             <!-- /Gallery -->
+                                            <!-- contact us -->
+                                            <li class="menu-item">
+                                                <a href="contacts.html">Contact Us</a>
+                                            </li>
+                                            <!-- /contact us -->
                                             <!-- Blog -->
                                             <li class="menu-item">
                                                 <a href="post-formats.html">Blog</a>
                                             </li>
                                             <!-- /Blog -->
+                                           
                                             <!-- Donate -->
                                             <li class="donate-btn menu-item">
-                                                <a href="donation-single.html">Give</a>
+                                                <a href="contacts.html">Donate</a>
                                             </li>
                                             <!-- /Donate -->
+                                           
                                         </ul>
                                     </nav>
                                 </div>

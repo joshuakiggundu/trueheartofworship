@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
                             <div class="columns_wrap">
                                 <!-- Widget: Text -->
                                 <aside class="column-1_4 widget widget_text">
-                                    <h5 class="widget_title">About Our Church</h5>
+                                    <h5 class="widget_title">About True Heart Of Worship</h5>
                                     <div class="textwidget">
-                                        <p>We welcome visitors at True heart of worship and would love to have you join us in church this weekend.</p>
+                                        <p>We welcome visitors at True heart of worship and would love to have you join us in worship this weekend.</p>
                                         <p class="textwidget_info">
-                                            <strong>E: <a href="mailto:info@yoursite.com">info@yoursite.com</a></strong>
+                                            <strong>E: <a href="mailto:info@trueheartofworship.com">info@trueheartofworship.com</a></strong>
                                         </p>
                                         
                                     </div>
                                 </aside><!-- /Widget: Text --><!-- Widget: Recent Posts --><aside class="column-1_4 widget widget_recent_posts">
-                                <h5 class="widget_title">Worship-Diaries</h5>
+                                <h5 class="widget_title">blog</h5>
                                 <article class="post_item with_thumb first">
                                     <div class="post_thumb">
                                         <img src="images/bgs/bgdrop.jpg" alt="">
@@ -93,19 +93,19 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </li>
                                 </ul>
                             </aside><!-- /Widget: Instagram --><!-- Widget: Recent Comments --><aside class="column-1_4 widget widget_recent_comments">
-                                <h5 class="widget_title">Recent Comments</h5>
+                                <h5 class="widget_title">Recent Events</h5>
                                 <ul id="recentcomments">
                                     <li class="recentcomments">
-                                        <span class="comment-author-link">John Dilan</span> on
-                                        <a href="post-single.html">Persevere: The Book of James</a>
+                                        <span class="comment-author-link">Kindle the flame</span> will
+                                        <a href="events.html">be a powerful event</a>
                                     </li>
                                     <li class="recentcomments">
-                                        <span class="comment-author-link">John Doe</span> on
-                                        <a href="post-single.html">The Meanings of Love in the Bible</a>
+                                        <span class="comment-author-link">Worship Seminar</span> and
+                                        <a href="events.html">OverNight at true heart of worship</a>
                                     </li>
                                     <li class="recentcomments">
-                                        <span class="comment-author-link">John Doe</span> on
-                                        <a href="#">The Meanings of Love in the Bible</a>
+                                        <span class="comment-author-link">Worship Gather</span> is
+                                        <a href="events.html">an opportunity to worship</a>
                                     </li>
                                 </ul>
                             </aside>
