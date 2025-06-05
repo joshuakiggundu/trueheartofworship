@@ -22,7 +22,7 @@ export default defineConfig({
         "post-single": resolve(__dirname, "post-single.html"),
         "product-single": resolve(__dirname, "product-single.html"),
      //   "sermons-single": resolve(__dirname, "sermons-single.html"),
-        sermons: resolve(__dirname, "sermons.html"),
+      //  sermons: resolve(__dirname, "sermons.html"),
         shortcodes: resolve(__dirname, "shortcodes.html"),
      //   "team-single": resolve(__dirname, "team-single.html"),
         "service-single": resolve(__dirname, "service-single.html"),
