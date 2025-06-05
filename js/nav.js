@@ -80,26 +80,12 @@ document.addEventListener("DOMContentLoaded", function() {
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main_mobile" class="menu_main_nav">
                                     <!-- Home -->
-                                    <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                    <li class="menu-item">
                                         <a href="index.html">Home</a>
-                                       
                                     </li>
                                     <!-- /Home -->
                                     <!-- Pages -->
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#">Others</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="about-us.html">About Us</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="shop.html">Shop</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="contacts.html">Contact Us</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                     <!-- /Pages -->
                                     <!-- Events -->
                                     <li class="menu-item">
@@ -108,32 +94,22 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <!-- /Events -->
                                     <!-- Sermons -->
                                     <li class="menu-item">
-                                        <a href="sermons.html">Worship-Diaries</a>
-                                        
-                                    </li>
+                                    <a href="about-us.html">Events</a>
+                                </li>
                                     <!-- /Sermons -->
                                     <!-- Gallery -->
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#">Gallery</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="gallery-grid.html">Our Music</a>
-                                            </li>
-                                            
-                                            <li class="menu-item">
-                                                <a href="gallery-masonry.html">Photo Gallery</a>
-                                            </li>
-                                        </ul>
+                                    <li class="menu-item">
+                                        <a href="gallery-masonry.html">Gallery</a>
                                     </li>
                                     <!-- /Gallery -->
                                     <!-- Blog -->
-                                    <li class="menu-iLAYERtem">
-                                        <a href="post-formats.html">Blog</a>
-                                    </li>
+                                    <li class="menu-item">
+                                    <a href="contacts.html">Contact us</a>
+                                </li>
                                     <!-- /Blog -->
                                     <!-- Donate -->
                                     <li class="donate-btn menu-item">
-                                        <a href="donation-single.html">Give</a>
+                                        <a href="contacts.html">Give</a>
                                     </li>
                                     <!-- /Donate -->
                                 </ul>
