@@ -38,17 +38,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                             </li>
                                             <!-- /About us -->
                                             <!-- Gallery -->
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#">Gallery</a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item">
-                                                        <a href="gallery-grid.html">Our Music</a>
-                                                    </li>
-                                                   
-                                                    <li class="menu-item">
-                                                        <a href="gallery-masonry.html">Photo Gallery</a>
-                                                    </li>
-                                                </ul>
+                                            <li class="menu-item menu-item">
+                                                <a href="gallery-masonry.html">Gallery</a>
                                             </li>
                                             <!-- /Gallery -->
                                             <!-- contact us -->
@@ -56,11 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <a href="contacts.html">Contact Us</a>
                                             </li>
                                             <!-- /contact us -->
-                                            <!-- Blog -->
-                                            <li class="menu-item">
-                                                <a href="post-formats.html">Blog</a>
-                                            </li>
-                                            <!-- /Blog -->
                                            
                                             <!-- Donate -->
                                             <li class="donate-btn menu-item">

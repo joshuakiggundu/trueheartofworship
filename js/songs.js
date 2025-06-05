@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
             mp3: 'media/Dream-Music-Relax.mp3',
             oga: 'media/Dream-Music-Relax.ogg',
             title: 'Energy',
-            artist: 'Young & Free',
+            artist: 'Maggie',
             rating: '5',
             buy: 'Buy',
             price: '123',

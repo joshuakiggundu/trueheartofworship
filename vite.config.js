@@ -24,7 +24,7 @@ export default defineConfig({
         "sermons-single": resolve(__dirname, "sermons-single.html"),
         sermons: resolve(__dirname, "sermons.html"),
         shortcodes: resolve(__dirname, "shortcodes.html"),
-        "team-single": resolve(__dirname, "team-single.html"),
+     //   "team-single": resolve(__dirname, "team-single.html"),
         "service-single": resolve(__dirname, "service-single.html"),
         "donation-single": resolve(__dirname, "donation-single.html"),
         "donate-now": resolve(__dirname, "donate-now.html"),

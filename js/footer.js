@@ -17,37 +17,23 @@ document.addEventListener("DOMContentLoaded", function() {
                                         
                                     </div>
                                 </aside><!-- /Widget: Text --><!-- Widget: Recent Posts --><aside class="column-1_4 widget widget_recent_posts">
-                                <h5 class="widget_title">blog</h5>
+                                <h5 class="widget_title">What Inspires Us</h5>
                                 <article class="post_item with_thumb first">
                                     <div class="post_thumb">
                                         <img src="images/bgs/bgdrop.jpg" alt="">
                                     </div>
                                     <div class="post_content">
                                         <h6 class="post_title">
-                                            <a href="post-single.html">5 Reasons to Love Churches in 2016</a>
+                                            <a href="gallery-grid.html">But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us. </a>
                                         </h6>
                                         <div class="post_info">
                                                 <span class="post_info_item">
-                                                    <a href="#" class="post_info_date">Tuesday, April 26, 2016</a>
+                                                    <a href="events.html" class="post_info_date">Love Proven, Not Just Spoken</a>
                                                 </span>
                                         </div>
                                     </div>
                                 </article>
-                                <article class="post_item with_thumb">
-                                    <div class="post_thumb">
-                                        <img src="images/bgs/bgdrop.jpg" alt="">
-                                    </div>
-                                    <div class="post_content">
-                                        <h6 class="post_title">
-                                            <a href="post-single.html">5 Questions for Decision Makers</a>
-                                        </h6>
-                                        <div class="post_info">
-                                                <span class="post_info_item">
-                                                    <a href="#" class="post_info_date">Monday, April 25, 2016</a>
-                                                </span>
-                                        </div>
-                                    </div>
-                                </article>
+                                
                             </aside><!-- /Widget: Recent Posts --><!-- Widget: Instagram --><aside class="column-1_4 widget null-instagram-feed">
                                 <h5 class="widget_title">Instagram</h5>
                                 <ul class="instagram-pics instagram-size-large">
