@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <!-- /Events -->
                                     <!-- Sermons -->
                                     <li class="menu-item">
-                                    <a href="about-us.html">Events</a>
+                                    <a href="about-us.html">About us</a>
                                 </li>
                                     <!-- /Sermons -->
                                     <!-- Gallery -->
