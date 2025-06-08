@@ -65,6 +65,10 @@ export default defineConfig({
         {
           src : "fontello/css/font/*",
           dest : "assets/font"
+        },
+        {
+          src: "sitemap.xml",
+          dest: ""
         }
       ],
     }),
